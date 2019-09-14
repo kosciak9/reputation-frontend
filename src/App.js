@@ -1,4 +1,3 @@
-import "feather-icons/dist/feather";
 import React from "react";
 import { Route, Link } from "wouter";
 import TweetDetails from "./components/TweetDetails";
