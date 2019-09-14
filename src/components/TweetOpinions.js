@@ -32,7 +32,7 @@ function TweetOpinion(props) {
 
 export default function TweetOpinions(props) {
   const { tweetUser = "anotherone", opinions = [{}] } = props;
-  const [match, params] = useRoute("/tweet/:id/opinions");
+  const [, params] = useRoute("/tweet/:id/opinions");
 
   return (
     <main

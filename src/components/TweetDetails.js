@@ -5,7 +5,7 @@ import { ArrowRight } from "react-feather";
 export default function TweetDetails() {
   const [match, params] = useRoute("/tweet/:id");
 
-  const [tweet, setTweet] = useState({
+  const [tweet] = useState({
     htmlContent:
       '<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The biggest threats to the Free Software Foundation are Clang and Richard Stallman.</p>&mdash; Ryan C. Gordon (@icculus) <a href="https://twitter.com/icculus/status/1172954637038759937?ref_src=twsrc%5Etfw">September 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
     verdict: null,
